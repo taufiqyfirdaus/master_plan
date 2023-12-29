@@ -12,7 +12,8 @@ Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studi
 
 Buatlah sebuah project flutter baru dengan nama master_plan di folder src week-11 repository GitHub Anda. Lalu buatlah susunan folder dalam project seperti gambar berikut ini.
 
-![image](https://github.com/taufiqyfirdaus/master_plan/assets/74848393/fd03c138-f65f-48f4-9571-edecd869f8ea)
+<img src='img/1.png' width='30%'>
+
 
 
 #### **Langkah 2: Membuat model task.dart**
@@ -185,7 +186,7 @@ Widget _buildTaskTile(Task task, int index) {
  
 Run atau tekan F5 untuk melihat hasil aplikasi yang Anda telah buat. Capture hasilnya untuk soal praktikum nomor 4.
 
-![image](https://github.com/taufiqyfirdaus/master_plan/assets/74848393/2ea1c4f8-b39e-441a-be30-8bc23f3ad83b)
+<img src='img/3.png' width='30%'>
 
 #### **Langkah 10: Tambah Scroll Controller**
 
@@ -234,8 +235,7 @@ void dispose() {
 #### **Langkah 14: Hasil**
 Lakukan Hot restart (bukan hot reload) pada aplikasi Flutter Anda. Anda akan melihat tampilan akhir seperti gambar berikut. Jika masih terdapat error, silakan diperbaiki hingga bisa running.
 
-![image](https://github.com/taufiqyfirdaus/master_plan/assets/74848393/30ca3923-89a4-4d8c-9a75-2b3c0a967ca7)
-
+<img src='img/3.png' width='30%'>
 
 >Catatan: Kedua fitur hot reload dan hot restart memiliki performa lebih cepat dibanding melakukan build ulang secara keseluruhan aplikasi. Secara umum:
 >
@@ -260,7 +260,7 @@ Lakukan Hot restart (bukan hot reload) pada aplikasi Flutter Anda. Anda akan mel
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
-    <img src='img/3.gif' width='30%'>
+    <img src='img/1.gif' width='30%'>
 
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
@@ -461,7 +461,7 @@ Akhirnya, run atau tekan F5 jika aplikasi belum running. Tidak akan terlihat per
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
-    <img src='img/4.gif' width='30%'>
+    <img src='img/2.gif' width='30%'>
 
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
@@ -743,7 +743,7 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
-    <img src='img/5.png' width='40%'>
+    <img src='img/4.png' width='40%'>
 
     **Penjelasan :**
 
@@ -756,6 +756,6 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
       * Utilitas PlanScreen mendengarkan perubahan dalam daftar rencana dan memperbarui layarnya.
 
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-    <img src='img/6.gif' width='40%'>
+    <img src='img/3.gif' width='40%'>
 
 4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
