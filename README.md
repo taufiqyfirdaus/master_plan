@@ -1,14 +1,11 @@
-# master_plan
+# **Dasar State Management**
 
-A new Flutter project.
+### **Pemrograman Mobile**
 
-## Getting Started
+### **Praktikum 1: Dasar State dengan Model-View**
 
-This project is a starting point for a Flutter application.
+Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studio Code (VS Code) atau Android Studio atau code editor lain kesukaan Anda.
 
-<<<<<<< HEAD
-A few resources to get you started if this is your first Flutter project:
-=======
 >Perhatian: Diasumsikan Anda telah berhasil melakukan setup environment Flutter SDK, VS Code, Flutter Plugin, dan Android SDK pada pertemuan pertama.
 
 #### **Langkah 1: Buat Project Baru**
@@ -552,7 +549,6 @@ Pastikan Anda telah merubah ke List dan mengubah nilai pada currentPlan seperti 
 @override
   Widget build(BuildContext context) {
     ValueNotifier<List<Plan>> plansNotifier = PlanProvider.of(context);
->>>>>>> fdb31dc4e6602be04a40a7c24304d21cf48b83e1
 
     return Scaffold(
       appBar: AppBar(title: Text(_plan.name)),
@@ -571,11 +567,6 @@ completenessMessage)),
   ,);
  }
 
-<<<<<<< HEAD
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
   Widget _buildAddTaskButton(BuildContext context) {
     ValueNotifier<List<Plan>> planNotifier = PlanProvider.
 of(context);
@@ -768,4 +759,3 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
     <img src='img/3.gif' width='40%'>
 
 4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
->>>>>>> fdb31dc4e6602be04a40a7c24304d21cf48b83e1
